@@ -7,7 +7,7 @@ import java.net.Socket;
 public class Exercise2Client {
 	
 	public static void main(String[] args) throws IOException{
-		try(Socket s = new Socket("cs380.codebank.xyz",38101)){
+		try(Socket s = new Socket("cs380.codebank.xyz",38102)){
 			System.out.println("Connected to server.");
 			InputStream is = s.getInputStream();
 			OutputStream os = s.getOutputStream();
